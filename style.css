@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body{
+    margin: 0;
+}
+#first{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./images/header.png");
+    background-size: cover;
+    background-position: center;
+}
+section.story{
+    width: 100%;
+    /* background-color: #9F1D37; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(fonts/фон.jpg);
+    background-size: cover;
+}
+.story>h2{
+    margin: 0;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: 'PT Sans', sans-serif; 
+    color: #E40505;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+.story-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 50px;
+    margin-top: 50px;
+}
+.story-card{
+    width: 1000px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+
+    display: flex;
+    align-items: flex-end;
+    
+}
+.story-card>p{
+    margin: 0;
+    width: 100%;
+    height: 40%;
+    background-color: rgba(0, 0, 0, 0.685);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: white;
+    
+    font-weight: 500;
+    font-family: 'PT Sans', sans-serif;
+    padding: 20px;
+}
+.story-card#story1{
+    font-size: 36px;
+}
+.story-card#story2{
+    font-size: 36px;
+}
+.story-card#story3{
+    font-size: 36px;
+}
+.story-card#story4{
+    font-size: 28px;
+}
+.story-card#story1{
+    background-image: url("./images/story/1.png");
+}
+.story-card#story2{
+    background-image: url("./images/story/2.png");
+    
+}
+.story-card#story3{
+    background-image: url("./images/story/3.png");
+}
+.story-card#story4{
+    background-image: url("./images/story/4.png");
+   
+}
+#dn{
+    background-image: url() ;
+}
+.form{
+    background-image: url(images/image\ 40.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#immg{
+   
+    width: 470px;
+    height: 470px;
+}
+#iii{
+    width: 500px;
+    font-size: 32px;
+    font-family: 'PT Sans', sans-serif; 
+}
+#secth{
+    width: 100%;
+    height: 300vh;
+    background-image: url(./images/1618477016_55-funart_pro-p-oboi-fon-krasnii-i-sinii-tsvet-58.jpg);
+    background-size: cover;
+}
+h1{
+    font-family:'PT Serif', serif;
+    margin: 0;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.575);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#FF0000;
+    font-size: 60px;
+
+}
+.players{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    
+   
+    
+}
+.player-card{
+    width: 228px;
+    height: 268px;
+    background-color: #fffb00c0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+
+    
+}
+.iiimmm{
+    width: 195px;
+    height: 207px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.text{
+    font-size: 25px;
+    margin:0 auto
+}
+.sect{
+    background-image:url(./images/image\ 42.png);
+    width: 100%;
+    height: 774px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.sect>div{
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#ppppp{
+color: rgb(255, 255, 255);
+margin: 0;
+width: 100%;
+height: 100px;
+background-color: rgba(0, 0, 0, 0.747);
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 80px;
+}
+#barca{
+    align-self: flex-start;
+}
+#vs{
+    align-self: center;
+}
+#drugie{
+    margin-bottom: 50px;
+    margin-right: 50px;
+    align-self: flex-end;
+}
+footer{
+    background-image: url(./images/image\ 43.png);
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+
+}
+#ppp{
+    color: rgba(0, 0, 0, 0.993);
+    margin: 0;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.548);
+    font-size: 60px;
+}
+#fcbar{
+font-size: 60px;
+margin-top: -50px;
+color: blanchedalmond;
+}
+#time{
+font-size: 60px;
+margin-top: -50px;
+color: blanchedalmond;
+}
+#blin{
+font-size: 60px;
+margin-top: -50px;
+color: blanchedalmond;
+}
